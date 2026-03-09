@@ -7,10 +7,10 @@ def swap(x, y):
     - print the swapped values if both x and y are numeric.
     """
 
-    # We check if the variables given are numeric. Assumption is if numbers are given in the form of strings, we will convert them first.
+    # We check if the variables given are numeric. Assumption is if numbers are given in the form of strings, we will convert them first. Unable to change them to float as they will get the new datatype.
     try:
-        x = float(x)
-        y = float(y)
+        float(x)
+        float(y)
     except:
         return -1
 
