@@ -14,7 +14,7 @@ def string_reverse(s):
     # Create a temp variable to extract and store the reversed, using a for loop
     # For loop is as such where the last char is of n-1 index, and we stop at -1 to include 0th index, and -1 step: backwards
     reversed_s = ""
-    for i in range(len(s)-1, -1, -1)
+    for i in range(len(s)-1, -1, -1):
         reversed_s += s[i]
     
     return reversed_s
@@ -27,3 +27,6 @@ def string_reverse(s):
 
 string_reverse("Hello World")
 string_reverse("Python")
+
+
+# Validated using Jupyter Notebook IDE.
