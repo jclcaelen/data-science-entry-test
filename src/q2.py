@@ -5,10 +5,26 @@ def find_and_replace(lst, find_val, replace_val):
     - lst must be a list.
     - Return the modified list.
     """
-    return
+
+    # Source: https://stackoverflow.com/questions/26544091/checking-if-type-list-in-python
+    # Using isinstance() to check if first argument is a list
+    if not isinstance(lst, list):
+        return -1
+
+    # Using a for loop to loop through lst, using range() to take X steps, using len() to determine X
+    for i = range(len(lst)):
+        if lst[i] == find_val:
+            lst[i] = replace_val
+
+
+    # Print after the replacement
+    print("Updated list: lst)
 
 
 # Task 2
 # Invoke the function "find_and_replace" using the following scenarios:
 # - [1, 2, 3, 4, 2, 2], 2, 5
 # - ["apple", "banana", "apple"], "apple", "orange"
+
+find_and_replace([1, 2, 3, 4, 2, 2], 2, 5)
+find_and_replace(["apple", "banana", "apple"], "apple", "orange")
