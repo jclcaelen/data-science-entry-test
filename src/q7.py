@@ -14,7 +14,7 @@ class Car:
         self.year = year
 
     def describe_car(self):
-        print("f{self.year} {self.make} {self.model}")
+        print(f"{self.year} {self.make} {self.model}")
 
 
 # Task 2
@@ -23,3 +23,5 @@ class Car:
 
 new_car = Car("Toyota", "Corolla", 2020)
 new_car.describe_car()
+
+# Validated using Jupyter Notebook IDE.
