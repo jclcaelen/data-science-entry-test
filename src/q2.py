@@ -12,13 +12,13 @@ def find_and_replace(lst, find_val, replace_val):
         return -1
 
     # Using a for loop to loop through lst, using range() to take X steps, using len() to determine X
-    for i = range(len(lst)):
+    for i in range(len(lst)):
         if lst[i] == find_val:
             lst[i] = replace_val
 
 
     # Print after the replacement
-    print("Updated list: lst)
+    return lst
 
 
 # Task 2
@@ -28,3 +28,6 @@ def find_and_replace(lst, find_val, replace_val):
 
 find_and_replace([1, 2, 3, 4, 2, 2], 2, 5)
 find_and_replace(["apple", "banana", "apple"], "apple", "orange")
+
+
+# Validated using Jupyter Notebook IDE.
