@@ -31,3 +31,6 @@ def find_first_negative(lst):
 
 find_first_negative([3, 5, -1, 7, -2, 8])
 find_first_negative([2, 10, 7, 0])
+
+
+# Validated using Jupyter Notebook IDE.
