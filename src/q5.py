@@ -20,7 +20,7 @@ def check_divisibility(num, divisor):
 
     if num % divisor == 0:
         return True
-    else
+    else:
         return False
 
 
@@ -32,3 +32,5 @@ def check_divisibility(num, divisor):
 check_divisibility(10, 2)
 check_divisibility(7, 3)
 
+
+# Validated using Jupyter Notebook IDE.
