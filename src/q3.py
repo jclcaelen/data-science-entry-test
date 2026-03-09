@@ -31,3 +31,6 @@ def update_dictionary(dct, key, value):
 
 update_dictionary({}, "name", "Alice")
 update_dictionary({"age": 25}, "age", 26)
+
+
+# Validated using Jupyter Notebook IDE.
