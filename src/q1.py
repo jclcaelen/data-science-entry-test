@@ -17,7 +17,7 @@ def swap(x, y):
     # if passes the above, we perform the swap and print out the swapped values
     temp = x
     x = y
-    y = x
+    y = temp
 
     print(f"New x is now {y}, and new y is now {x}")
 
